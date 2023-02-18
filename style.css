@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    
+    padding-inline: 2rem;
+    height: 100vh;  
+    background-color: #222;
+    background-image: url(./galaxy.jpg);
+    background-size: cover;
+
+    color: #eee;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.personajes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.personaje {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 225px;
+    padding: 1rem;
+    background-color: rgba(2, 2, 2, .5);
+
+    border-radius: 8px;
+}
+
+.personaje ul li {
+    padding-block: .3rem;
+}
+
+header {
+    padding: 2rem;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h2 {
+    padding-bottom: .5rem;
+}
+
+.buscar {
+    display: flex;
+    justify-content: center;
+
+    padding: 0 2rem 2rem 2rem;
+}
+
+.barra-busqueda {
+    padding: .8rem;
+    width: 600px;
+
+    border-radius: 8px;
+}
